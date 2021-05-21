@@ -32,13 +32,11 @@
 
 // Interface configuration is not under this build config's control.
 // Need to modify .ioc file and regenerate library codes to change.
-#define BUILD_I2C
+//#define BUILD_MIDI
 
 // Chip configurations are managed by following definitions.
 #define BUILD_PSG
 #define BUILD_SCC
-
-//#define BUILD_MIDI
 
 // Constant variables to improve readability.
 enum {
